@@ -44,7 +44,7 @@ function displayNumbers() {
         const numbers = generateLottoNumbers();
         numbers.forEach(number => {
             const numberDiv = document.createElement('div');
-            numberDiv.classList.add('number');
+            numberDiv.classList.add('circle-number');
             numberDiv.textContent = number;
             numberSet.appendChild(numberDiv);
         });
